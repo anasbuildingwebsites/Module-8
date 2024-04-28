@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Agency</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 100%;
+            margin: 20px;
+        }
+
+        .section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .col {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        .col:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to ABC Travel Agency</h1>
+    <h2>List of countries we can bring you:</h2>
+    <div class="container">
+        <div class="section">
+        <div class="row">
+            <div class="col">
+                <h2>Australia</h2>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/kLuqCtnKr_8?si=pmV8A08eXfoCH7F5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <h2>New Zealand</h2>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/QPLVtjbDz6c?si=fPZImtCg5WSE4HyT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Paris</h2>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/AQ6GmpMu5L8?si=-NgoL6XI2sy0tP1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <h2>London</h2>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/45ETZ1xvHS0?si=1Sbs7KcxtOQVyv57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
